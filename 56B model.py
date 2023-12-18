@@ -28,7 +28,7 @@ documents = SimpleDirectoryReader("data/").load_data()
 
 llm = LlamaCPP(
     # Optionally, you can pass in the URL to a GGML model to download it automatically
-    # model_url='mistral-7b-instruct-v0.1.Q4_K_M.gguf',
+    # model_url=None,
     # Set the path to a pre-downloaded model instead of model_url
     model_path='mixtral-8x7b-instruct-v0.1.Q2_K.gguf',
     temperature=0.1,
