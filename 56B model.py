@@ -30,8 +30,7 @@ llm = LlamaCPP(
     # Optionally, you can pass in the URL to a GGML model to download it automatically
     # model_url='mistral-7b-instruct-v0.1.Q4_K_M.gguf',
     # Set the path to a pre-downloaded model instead of model_url
-    model_path='C:\\Users\\msamwelmollel\\Documents\\TAKUKURU LLM\\mixtral-8x7b-instruct-v0.1.Q2_K.gguf',
-    # model_path='C:\\Users\\msamwelmollel\\Documents\\TAKUKURU LLM\\mistral-7b-instruct-v0.1.Q4_K_M.gguf',
+    model_path='mixtral-8x7b-instruct-v0.1.Q2_K.gguf',
     temperature=0.1,
     max_new_tokens=1024, # Increasing to support longer responses
     context_window=8192, # Mistral7B has an 8K context-window
